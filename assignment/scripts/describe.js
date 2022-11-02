@@ -27,7 +27,7 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // Declared variable called name and set it equal to 'Dane'.
-// Then we create a conditional to check if the variable name is equal to 'Mary', if it's true console.log 'Hi, Mary!'. 
+// We check if the variable name is equal to 'Mary', if it's true console.log 'Hi, Mary!'. 
 // If it's false console.log 'How do you do?'. The variable name has the value 'Dane' so the statement is
 // is not true, console.log 'How do you do?'.
 
@@ -46,9 +46,10 @@ if (name === 'Mary') {
 
 // 2. WRITE YOUR DESCRIPTION HERE
 // Declared variable called secret. Declared variable called code and set it's value to the number 123.
-// 
-// 
-//
+// We check if variable code is equal to number 123, this is true, so the variable secret will be assigned
+// a value of 'super' and the variable code will be assigned a new value of itself multiplied by the number 2.
+// We then check if the variable code has a value greater than the number 250. This is not true so console.log
+// the current value of variable secret which is 'super'. 
 
 //CODE
 /*
@@ -70,10 +71,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Declared variable called isStudent and set it's value as true. Declared variable age and set it's value as the number 34.
+// Declared variable zip and set it's value to the number 55407. We check if isStudent is true AND if zip is greater than the
+// number 80000. Both of these are not true so we then check if isStudent is false OR if age has a value less than the number
+// 30. Neither of these are true so we then check if isStudent is equal to the boolean value true. This is true, console.log 'Welcome to Prime!'.
 
 //CODE
 /*
@@ -130,12 +131,16 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne is set to 'red' and colorTwo is set to 'blue'.
+// Should be colorOne = 'blue' and colorTwo = 'red'.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+// FIX - instructions say colorOne and colorTwo should be set to 'purple' but colorTwo is missing.
+// Should add in colorTwo = 'purple'.
 }
 */
 
@@ -147,6 +152,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - instructions state "higher than 39 AND if time is greater or equal".
+// Should be (temp > 39 && time >= 4).
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,7 +167,11 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - instructions state "We check if age is greater than or equal to minAge".
+// Should be (age >= minAge)
 if(minAge <= age) {
+// FIX - instructions state "it is, so we console.log 'enter'.".
+// Should be console.log('enter') for if statement and the console.log for the else statement should be console.log('no entry')
   console.log('no entry');
 } else {
   console.log('enter');
