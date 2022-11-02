@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Declared variable called name and set it equal to 'Dane'.
+// Then we create a conditional to check if the variable name is equal to 'Mary', if it's true console.log 'Hi, Mary!'. 
+// If it's false console.log 'How do you do?'. The variable name has the value 'Dane' so the statement is
+// is not true, console.log 'How do you do?'.
 
 //CODE
 /*
@@ -45,7 +45,7 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
+// Declared variable called secret. Declared variable called code and set it's value to the number 123.
 // 
 // 
 //
