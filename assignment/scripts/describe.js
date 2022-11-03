@@ -26,7 +26,7 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// Declared variable called name and set it equal to 'Dane'.
+// Declared variable called name and set it equal to 'Dane' as a string.
 // We check if the variable name is equal to 'Mary', if it's true console.log 'Hi, Mary!'. 
 // If it's false console.log 'How do you do?'. The variable name has the value 'Dane' so the statement is
 // is not true, console.log 'How do you do?'.
@@ -45,11 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// Declared variable called secret. Declared variable called code and set it's value to the number 123.
+// Declared variable called secret with an undefined value. Declared variable called code and set it's value to 123 as a number.
 // We check if variable code is equal to number 123, this is true, so the variable secret will be assigned
-// a value of 'super' and the variable code will be assigned a new value of itself multiplied by the number 2.
-// We then check if the variable code has a value greater than the number 250. This is not true so console.log
-// the current value of variable secret which is 'super'. 
+// a value of 'super' as a string and the variable code will be assigned a new value of itself multiplied by the number 2.
+// We then check if the variable code has a value greater than the number 250. The current value of code is 246 so this is not true,
+// console.log the value of secret which is 'super'.
 
 //CODE
 /*
@@ -71,8 +71,8 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// Declared variable called isStudent and set it's value as true. Declared variable age and set it's value as the number 34.
-// Declared variable zip and set it's value to the number 55407. We check if isStudent is true AND if zip is greater than the
+// Declared variable called isStudent and set it's value to true as a boolean. Declared variable age and set it's value to 34 as a number.
+// Declared variable zip and set it's value to 55407 as a number. We check if isStudent is true AND if zip is greater than the
 // number 80000. Both of these are not true so we then check if isStudent is false OR if age has a value less than the number
 // 30. Neither of these are true so we then check if isStudent is equal to the boolean value true. This is true, console.log 'Welcome to Prime!'.
 
